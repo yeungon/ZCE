@@ -1,5 +1,8 @@
 <?php
 
+// https://3v4l.org/0HNf7
+
+
 class M {
     
     public function identify() {
