@@ -23,4 +23,4 @@ $a = new A;
 $a->out(); //A
 
 $b = new B;
-$b->out(); //B
+$b->out(); /////B
