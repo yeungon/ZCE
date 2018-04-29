@@ -10,7 +10,7 @@ class A {
 }
 
 class B extends A {
-    private function whoami() {
+    private function whoami() { //hàm trùng tên sẽ ghi đè whoami() trên class A
         echo 'B', PHP_EOL;
     }
 
@@ -21,5 +21,6 @@ class B extends A {
 
 $a = new A;
 $a->out(); //A
+
 $b = new B;
 $b->out(); //B
