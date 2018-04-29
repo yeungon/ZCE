@@ -2,9 +2,9 @@
 
 trait abc{
     
-    public $a = "hello";
+    public $a = "hello"; //the property cannot be overridden.
     
-    public function a(){
+    public function a(){ //this method will be overridden in the class used this trait.
         
         return "hello";
     }
