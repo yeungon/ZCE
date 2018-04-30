@@ -1,4 +1,7 @@
 <?php 
+
+//https://3v4l.org/aQquX
+
 trait RoadVehicle { 
     public function goWhere(){ 
         echo "Driving down the road"; 
