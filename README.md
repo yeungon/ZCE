@@ -1,2 +1,3 @@
 # zce
-ZCE Luyện Zend Certified Engineer
+
+Documents used to practise ZCE Zend Certified Engineer test
