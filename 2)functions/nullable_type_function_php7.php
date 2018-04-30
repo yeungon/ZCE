@@ -32,7 +32,7 @@ class Cookie
         if(isset($this->jar[$key])) {
             return $this->jar[$key];
         }
-        return null;
+        return null; //nếu không thì return null
     }
 
 }
@@ -41,7 +41,7 @@ class Cookie
 
 //return null
 
-function testReturn(): ?string
+function testReturn(): ?string //dấu chấm hỏi ? 
 {
     return 'elePHPant';
 }
