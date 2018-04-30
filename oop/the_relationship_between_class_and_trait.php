@@ -26,5 +26,5 @@ echo $a->a(); //world
 
 /**methods của class có thể override methods của traits
 * methods của class có thể override methods của traits
-* property của class KHÔNG THỂ override propery của trait
+* property của class KHÔNG THỂ override propery của trait ==> lỗi ngay https://3v4l.org/L5HN7
 */
