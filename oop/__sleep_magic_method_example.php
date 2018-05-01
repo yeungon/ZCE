@@ -18,3 +18,5 @@ class VehicleA {
 $a = new VehicleA;
 
 print_r(serialize($a)); //    O:8:"VehicleA":2:{s:6:"*abc";s:28:"đây là protected property";s:13:"VehicleAcde";s:26:"đây là private property";}
+
+//ví dụ: https://3v4l.org/UlRfD
