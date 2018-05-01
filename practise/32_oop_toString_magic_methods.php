@@ -13,3 +13,5 @@ class abc{
 $a = new abc;
 
 echo strlen($a);
+
+//kết quả + giải thích https://3v4l.org/8a8WY
