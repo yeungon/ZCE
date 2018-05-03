@@ -9,11 +9,11 @@
  */
 
   $a = 10;
-    function myfunction($b)
+    function function($b)
     {
         $a = 20;
         global $a, $c;
         return $c = ($b + $a);
     }
 
-    print myfunction(30) + $c;
+    print function(30) + $c;
