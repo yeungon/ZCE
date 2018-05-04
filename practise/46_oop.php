@@ -26,3 +26,4 @@ $reflection = new \ReflectionClass(new xeA());
 
 echo count(get_class_methods(new xeA())) <=> count($reflection->getMethods());
 
+//https://3v4l.org/GpT1c
