@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * vietzce
+ * @category   oop
+ * @author     me@vuongnguyen.net
+ * @copyright  2018 Vuong
+ */
+
 interface phuongtien{
     
     public function method();
