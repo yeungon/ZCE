@@ -1,5 +1,4 @@
 <?php
-
 /**
  * vietzce
  * @category   oop

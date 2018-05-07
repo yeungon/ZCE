@@ -2,10 +2,10 @@
 
 interface life{
     
-    const _LIFE = ["analytic approach"=>["Wittgenstein "=>"the case"],
                   "continental" => ["Heidegger" => "the world where being lives", "Camus" =>"absurdity"],
                   "marxism" => ["lênin-nít " => "vật chất aka phạm trù, hem cần biết lương bao nhiêu"]
                   
+    const _LIFE = ["analytic_approach"=>["wittgenstein"=>"the case"],
     ];
     
     public function live();
