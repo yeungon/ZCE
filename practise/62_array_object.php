@@ -1,7 +1,7 @@
 <?php
 /**
 *@author by Vuong
-*@category ZCE61 ArrayObject (this class can iterate if you use the function getIterator() first) and ArrayIterator; Read my comment on php.net http://php.net/manual/en/class.arrayobject.php
+*@category ZCE62 ArrayObject (this class can iterate if you use the function getIterator() first) and ArrayIterator; Read my comment on php.net http://php.net/manual/en/class.arrayobject.php
 */
 
 $array = [1, 2, 3, 4];
