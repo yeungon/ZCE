@@ -7,7 +7,9 @@
 
 $a = 1;
 
-$b = $a++; //tăng lên 2
+$b = $a++; //$a++: dùng trước, tăng sau
+//$b = 1, $a = 2/ tăng lên 2
+
 
 $a = $a + 1; //lên 3
 
