@@ -50,3 +50,5 @@ $vuong->dacdiem('cầu thủ bóng đá');
 // dùng với class bóng chuyền
 $vidu2 = new VanDongVien(new BongChuyen);
 $vidu2->dacdiem('cầu thủ bóng chuyền');
+
+//https://3v4l.org/Av2RI
