@@ -40,7 +40,7 @@ class A{
 	//tạo object chính nó bằng cách gọi hàm/luôn luôn chỉ có một object giống nhau khi gọi hàm getInstance
 	$a = A::getInstance();
 
-	$a->name = "Vượng";
+	$a->name = "Vượng"; //nếu không dùng magic method thì phải dùng $a->set("name", "Vượng");
 	echo $a->name;
 
 
@@ -48,3 +48,7 @@ class A{
 	$b->vidu = "Giang";
 
 	echo $b->vidu;
+
+	A::getInstance()->giang = "Giang";
+
+	echo A::getInstance()->giang;
