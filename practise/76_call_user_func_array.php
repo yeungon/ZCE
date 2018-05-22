@@ -16,3 +16,5 @@ class ViDu
 $a = new ViDu;
 
 echo call_user_func_array([$a, "hello"], [2, 3]);
+
+//https://3v4l.org/bBIVn
