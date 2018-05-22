@@ -17,6 +17,7 @@ class A{
 	}
 
 	//dùng phương thức static để gọi phương thức bằng :: mà không cần khởi tạo object
+	
 	public static function getInstance(){ 
 		if (!isset(self::$instance)) //kiểm tra nếu chưa có
 			self::$instance = new A; //khởi tạo object
