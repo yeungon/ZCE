@@ -21,6 +21,19 @@ class A{
 			return self::$instance; //trả về object
 	}
 
-	//tạo object chính nó bằng cách gọi hàm/luôn luôn chỉ có một object giống nhau khi gọi hàm getInstance
-	$a = A::getInstance(); 
+	protected function __clone(){ //chống clone object bằng cách dùng protected
+
+	}
+
+	public function hello(){
+
+		return "hello world";
+	}
+
+
 }
+
+//tạo object chính nó bằng cách gọi hàm/luôn luôn chỉ có một object giống nhau khi gọi hàm getInstance
+	$a = A::getInstance(); 
+
+	echo $a->hello();
