@@ -15,6 +15,6 @@ $e = extract($array); //trả về tổng số element convert thành công, ở
 echo $abc + $e + next($d);
 
 
-
+//https://3v4l.org/I6Bjq 63
 
 ?>
