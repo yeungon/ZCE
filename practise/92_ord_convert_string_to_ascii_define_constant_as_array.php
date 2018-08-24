@@ -1,5 +1,7 @@
 <?php
 
+/*ZCE by @vuong*/
+
 define('bongda', [
       'vietnam',
       'hanquoc',
