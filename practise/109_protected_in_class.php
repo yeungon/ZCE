@@ -4,6 +4,8 @@ noted: Chỉ khi property bằng private nó mới không bị ghe đè, vì th�
 
 khi property là protected --> vẫn bị ghe đè như thường
 
+https://3v4l.org/0WgIQ
+
 */
 class Hello{
 	
