@@ -22,6 +22,7 @@ $callback2 = function($n){
 
 array_walk($a, $callback2);
 
+
 print_r($abc);
 
 //https://3v4l.org/GP2J5
