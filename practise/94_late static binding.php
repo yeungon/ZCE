@@ -25,7 +25,7 @@ class B extends A {
 
 echo B::xinchao() + A::xinchao();
 
-//https://3v4l.org/4JORs
+//https://3v4l.org/4JORs              
 
 /*noted:
 B::xinchao() gọi tới hàm xinchao(), hàm xinchao trả về hàm freetut() của class B trong trường hợp static::freetut() và hàm freetut() của class A trong trường hợp self::freetut. Kết quả 10 + 9 = 19

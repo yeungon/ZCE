@@ -18,9 +18,11 @@ class a{
     
     public $flag = null;
     
-    public function vietnam(){
+    public function vietnam($argument){
         
-        return $this->vidu;
+        $this->argument = $this->vidu;
+        
+        return $this->argument;
     }
     
     public function vodich(){

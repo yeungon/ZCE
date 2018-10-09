@@ -5,6 +5,7 @@
 
 trait không dùng hằng được.
 property của trait không thể được khai báo lại.
+hàm array_flip không đ
 
 */
 trait vidu{
