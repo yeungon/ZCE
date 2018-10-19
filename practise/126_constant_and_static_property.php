@@ -1,8 +1,10 @@
 <?php
 
 /*  Note: constant và biến static có thể gọi ở class khác mà không cần extends
-*   Note: property hay constant trong class không thể khai báo ở dạng expression (ví dụ với một hàm nào đó, mà phải gán giá trị nào đó), chẳng hạn const =  *range(); là không được
+*   Note: property hay constant trong class không thể khai báo ở dạng expression (ví dụ với một hàm nào đó, mà phải gán giá trị nào đó), 
+*   chẳng hạn const =  *range(); là không được
 *   Written by Vuong Nguyen
+*   Online https://3v4l.org/cesM8
 */
 
 class Hello{
