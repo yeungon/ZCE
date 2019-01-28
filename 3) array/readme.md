@@ -1,4 +1,4 @@
-### Array Functions
+### List of Array Functions
 
 -------------------------
 
