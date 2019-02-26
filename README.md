@@ -1,6 +1,6 @@
 # Introduction
 
-ZCE stands for Zend Certificate Engineer is the enterprise standard test that evaluates the competence about PHP in a wide range of aspects of the language. There are 11 groups of knowledge that are challenged when taking the test. The material listed in this repository is compiled for that purpose. 
+ZCE standing for Zend Certificate Engineer is a enterprise standard test that evaluates the competence about PHP in a wide range of aspects of the language. There are 11 groups of knowledge that are challenged when taking the test. The material listed in this repository is compiled for that purpose. 
 
 # Practise makes perfect
 
