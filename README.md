@@ -37,6 +37,51 @@ As `$c` is not declared then we get `else`, meaning `echo ($c = 'c').'d';`, whic
 </p>
 </details>
 
+---
+
+###### 2. What's the output?
+```php
+
+class ZCE {
+	public $me = 1;
+	public function __construct($me) { 
+		$this->me = $me; 
+	}
+	public function getProp() {
+		return function($he) {
+			return $this->me*$he;
+		};
+	}
+}
+
+$a = new ZCE(2);
+
+$a->getProp = function($x) {
+	return $x*$x;
+};
+
+$m = $a->getProp();
+
+echo $m(3);
+
+```
+- A:  5
+- B:  6
+- C:  7
+- D:  8
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: B
+
+We have two functions named getProp(), one declared inside the class and another one declared with the object `$a` and that override the previous one. Yet, when we call `$m = $a->getProp();`, we still access to the method declared inside the ZCE class.
+
+Check the result at https://3v4l.org/eAOR4
+
+</p>
+</details>
+
 
 
 
