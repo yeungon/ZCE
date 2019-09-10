@@ -12,8 +12,7 @@ The content in this repository is under CC BY-NC-ND
 
 # Update September 2019
 
-We are going to update the question here instead of the "practise" folder
-
+We are going to update the question here instead of the "practise" folder. Currently, we have 137 questions awaiting for you.
 ---
 
 ###### 1. What's the output?
