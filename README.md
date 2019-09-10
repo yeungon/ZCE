@@ -9,3 +9,34 @@ A number of code snippets, most of them are relatively short, can be found in th
 # Copyright
 
 The content in this repository is under CC BY-NC-ND 
+
+# Update September 2019
+
+We are going to update the question here instead of the "practise" folder
+
+---
+
+###### 1. What's the output?
+```php
+
+$a = 'a'; $b = 'b';
+
+echo isset($c) ? $a.$b.$c : ($c = 'c').'d';
+```
+- A:  abc
+- B:  ab
+- C:  cd
+- D:  ac
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: C
+
+As `$c` is not declared then we get `else`, meaning `echo ($c = 'c').'d';`, which returns "cd". This is the first question, so hello world :-)
+</p>
+</details>
+
+
+
+
